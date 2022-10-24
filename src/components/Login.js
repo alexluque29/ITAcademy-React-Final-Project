@@ -3,6 +3,8 @@ import { useAuth } from "../context/authContext";
 import { Link, useNavigate } from "react-router-dom";
 import { Alert } from "./Alert";
 import "../styles/login.css";
+// import logoGoogle from "../image/logoGoogle.png";
+
 
 export function Login() {
   const [user, setUser] = useState({
@@ -44,20 +46,20 @@ export function Login() {
         <form
           onSubmit={handleSubmit}
           className="bg-white
-      shadow-md rounded px-8 pt-6 pb-8 mb-4"
+          shadow-md rounded px-8 pt-6 pb-8 mb-4"
         >
           <div className="mb-4">
             <label
               htmlFor="email"
               className="block text-grey 700
-          text-md font-fold mb2"
+              text-md mb2"
             >
               Email
             </label>
             <input
               className="shadow appearance-none border rounded w-full
-            py-2 px-3 text-gray-700 leading-tight focus: outline-none
-            focus: shadow-outline"
+              py-2 px-3 text-gray-700 leading-tight focus: outline-none
+              focus: shadow-outline"
               type="email"
               name="email"
               placeholder="youremail@company.xxx"
@@ -68,8 +70,8 @@ export function Login() {
             <label htmlFor="password">Password</label>
             <input
               className="shadow appearance-none border rounded w-full
-          py-2 px-3 text-gray-700 leading-tight focus: outline-none
-          focus: shadow-outline"
+              py-2 px-3 text-gray-700 leading-tight focus: outline-none
+              focus: shadow-outline"
               type="password"
               name="password"
               id="password "
@@ -78,24 +80,26 @@ export function Login() {
             />
           </div>
           <button
-            className="bg-neutral-400 hover:bg-neutral-600
-         text-white text-sm font-bold py-2 px-4 rounded focus: outline-none
-         focus: shadow-outline"
+            className="bg-blue-500 hover:bg-blue-700
+            text-white text-sm font-bold py-2 px-4 rounded focus: outline-none
+            focus: shadow-outline"
           >
             Login
           </button>
         </form>
         <button
           className="bg-slate-100 hover:bg-slate-300 text-black
-      shadow-md rounded border-2 border-gray-300 py-2 px-4
-      w-full"
-          onClick={handleGoogleSignin}
-        >
-          Google Login
-        </button>
+          shadow-md rounded border-2 border-gray-300 py-2 px-4
+          w-full"
+          onClick={handleGoogleSignin}>
 
+          <p className="text-sm text-emerald-500">Google Login</p>
+        </button>
         <p className="text-sm flex justify-between px-3 mt-5">
-          Don't you have an account? <Link to="/register">Register</Link>
+          Don't you have an account?{" "}
+          <Link to="/register" className="text-blue-700 hover:font-bold">
+            Register
+          </Link>
         </p>
       </div>
     </div>

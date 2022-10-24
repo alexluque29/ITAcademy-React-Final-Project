@@ -1,0 +1,18 @@
+.exercises-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    gap: 110px;
+    background-color: white;
+}
+.MuiPagination-root{
+    display: flex;
+    justify-content: center;
+}
+.showing{
+    margin: 20px 0 0 20px;  
+    font-size: xx-large;
+    color:rgb(165, 170, 213);
+}

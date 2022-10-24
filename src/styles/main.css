@@ -1,0 +1,5 @@
+.right{
+    background-color: blueviolet;
+    justify-content: flex-end;
+    margin-right: 10px;
+}

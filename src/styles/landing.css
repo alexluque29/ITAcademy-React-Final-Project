@@ -1,7 +1,25 @@
-.landing{
+/* .landing{
     display: flex;
     flex-direction: column;
     background-color: aqua;
     justify-content: center;
     color: blue;
+    background-image: url('../image/landing.jpg');
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url('../image/landing.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: #999; */
 }

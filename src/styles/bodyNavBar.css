@@ -1,0 +1,7 @@
+.horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e0e1dd;
+  margin-top: 50px;
+}
