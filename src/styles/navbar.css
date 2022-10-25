@@ -1,0 +1,26 @@
+.navbar-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.navbar {
+  background-color: red;
+}
+.welcome{
+  color: white;
+}
+.button-logout{
+  color: white;
+  border: solid 1px white;
+  width: 80px;
+  font-weight: lighter;
+  font-size: small;
+  padding: 2px 0 2px 0;
+  margin-right: 20px;
+}
+.button-logout:hover{
+  color: red;
+  background-color: white;
+  font-weight: bold;
+}

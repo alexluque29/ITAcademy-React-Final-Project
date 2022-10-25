@@ -1,0 +1,8 @@
+.exvideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videoYT{
+    margin-bottom: 50px;
+}
