@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+.topline{
+ background-color: red;
+ padding: 2px;
+}
+.container{
+  display: flex;
+  justify-content:space-around;
+}
+.cont-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cont-right{
+  margin-top: 50px;
+}
+.shorter{
+  color: white;
+  font-size: 50px;
+}
+.better{
+  color: red;
+  font-size: 50px;
+}
+.button-home{
+  color: white;
+  background-color: black;
+  border: solid 1px white;
+  width: 120px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: small;
+  margin-top: 15px;
+  padding: 5px 0 5px 0;
+}
+.button-home:hover{
+  background-color: white;
+  color:black;
+  font-weight: bold;
+}
+.fitgirl{
+  display: flex;
+  justify-content: flex-end;
+  height: 600px;
+  position: relative;
+}

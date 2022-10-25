@@ -1,0 +1,31 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ex-name {
+  text-transform: uppercase;
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+.ex-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.capi {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(245, 223, 60);
+}
+.exerdetail {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+}
