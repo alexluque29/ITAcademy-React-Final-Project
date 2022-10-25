@@ -1,19 +1,17 @@
-.buttons {
-  margin-left: 10px;
+
+.a-button{
+    background-color: #415a77;    
+    font-size: 10px;
+    font-weight:lighter;
+    letter-spacing: 0.1rem;
+    color: white;
+    border: none;
 }
-.a-button {
-  background-color: #415a77;
-  font-size: 10px;
-  font-weight: lighter;
-  letter-spacing: 0.1rem;
-  color: white;
-  border: none;
-  margin-right: 5px;
-}
-.b-button {
-  background-color: #1b263b;
-  font-size: 10px;
-  font-weight: lighter;
-  letter-spacing: 0.1rem;
-  border: none;
+.b-button{  
+    background-color: #1b263b;
+    font-size: 10px;
+    font-weight:lighter;
+    letter-spacing: 0.1rem;
+    color: white;
+    border: none;
 }

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import { Home, Login, ProtectedRoute, Register, Landing } from "./components";
 import { AuthProvider } from "./context/authContext";
-import ExerciseDetail from "./components/ExerciseDetail";
 import "../src/styles/App.css";
+import ExerciseDetail from "./components/ExerciseDetail";
 
 
 function App() {

@@ -9,7 +9,8 @@ const Cards = ({exercise}) => {
         <button className="a-button btn btn-xs mt-2 mb-2">{exercise.bodyPart}</button>
         <button className="b-button btn btn-xs">{exercise.target}</button>
         </div>
-        <div className='name flex justify-center capitalize font-bold text-red-600' mt-2 >{exercise.name}</div>
+        <div className='name flex justify-center capitalize font-bold text-yellow-600' mt-2 >{exercise.name}</div>
+
     </Link>
   )
 }
