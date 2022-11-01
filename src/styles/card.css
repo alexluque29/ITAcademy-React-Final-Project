@@ -1,17 +1,51 @@
-
-.a-button{
-    background-color: #415a77;    
-    font-size: 10px;
-    font-weight:lighter;
-    letter-spacing: 0.1rem;
-    color: white;
-    border: none;
+.buttons {
+  background-color: rgb(53, 53, 53);
+  border-top: solid 1px black;
+  color: white;
 }
-.b-button{  
-    background-color: #1b263b;
-    font-size: 10px;
-    font-weight:lighter;
-    letter-spacing: 0.1rem;
-    color: white;
-    border: none;
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(53, 53, 53);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 15px;
+  color: rgb(245, 223, 60);
+}
+.a-button {
+  background-color: #415a77;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  color: white;
+  border: none;
+  margin: 10px 7px 0 10px;
+}
+.b-button {
+  background-color: red;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  color: white;
+  border: none;
+}
+.image {
+  width: 300px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.image:hover {
+  filter: opacity(0.5);
+}
+.exercises-list {
+  background-color: rgb(210, 210, 210);
+}
+.full-card {
+  margin: 30px 30px 20px 30px;
+}
+.low-card {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }

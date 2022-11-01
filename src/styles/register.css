@@ -7,3 +7,12 @@
   align-items: center;
   justify-content: center;
 }
+.please{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color:rgb(193, 193, 193);
+  background-color: red;
+  padding: 20px;
+}

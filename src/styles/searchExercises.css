@@ -1,22 +1,14 @@
 .root,
-html, body {
+html,
+body {
   background-color: black;
-}
-.awesome {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding: 20px 0 20px 0;
 }
 .search-row {
   display: flex;
   justify-content: center;
   background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .button {
   padding: 0 15px 0 15px;
@@ -32,4 +24,14 @@ html, body {
   border-top-right-radius: 0px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  display: flex;
+  color: black;
+}
+.youcan {
+  display: flex;
+  align-items: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
 }

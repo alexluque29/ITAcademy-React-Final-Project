@@ -3,6 +3,7 @@
     background-color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 500px;
 }
 .right{
@@ -10,10 +11,13 @@
     justify-content: flex-end;
 }
 .quote{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
     background-color: black;
     text-align: center;
+    font-weight: bolder;
+    line-height: 45px;
+    color: rgb(182, 182, 182);
 }
 .takeit{
     font-weight: bolder;

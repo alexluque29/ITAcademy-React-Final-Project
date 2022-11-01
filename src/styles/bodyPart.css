@@ -5,6 +5,10 @@
   justify-content: center;
   margin: 50px 0 50px 0;
 }
-.bodyItem{
-  color:black;
+.bodyItem {
+  color: black;
+}
+.bodyIcon:hover {
+  filter: opacity(2);
+  transform: scale(1.4);
 }

@@ -6,12 +6,20 @@ export const Landing = () => {
   return (
     <>
       <div className="topline"></div>
-      <div className="container">        
+      <div className="container">
         <div className="cont-left">
-          <p className="shorter"><span style={{ color: "#f5df3c" }}>Fast Fitness</span></p>
-          <p className="shorter">SHORTER WORKOUTS,</p>
-          <p className="better">BETTER RESULTS</p>
-          <p>SHORT, MANAGEABLE WORKOUTS FOR <br />PEOPLE WITH NO TIME.</p>
+          <div className="text">
+            <p className="shorter">
+              <span style={{ color: "#f5df3c" }}>Fast Fitness</span>
+            </p>
+            <p className="shorter">SHORTER WORKOUTS,</p>
+            <p className="better">BETTER RESULTS</p>
+          </div>
+          <p>
+            <br />
+            SHORT, MANAGEABLE WORKOUTS FOR <br />
+            PEOPLE WITH NO TIME.
+          </p>
           <Link to="/home" className="button-home">
             START HERE
           </Link>

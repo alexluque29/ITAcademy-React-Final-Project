@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Pagination from "@mui/material/Pagination";
 import "../styles/exercises.css";
-
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import Cards from "./Cards";
 
@@ -32,18 +31,19 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   );
 
   const paginate = (event, value) => {
-    setCurrentPage(value);
-
-    window.scrollTo({ top: 1800, behavior: "smooth" });
+    setCurrentPage(value);    
+    window.scrollTo({ top: 800, behavior: "smooth" });
   };
-
+  
   return (
     <div id="exercises">
-      <div className="showing">Showing {exercises.length} results.</div>
+      <div className="showing">
+        {exercises.length === 0 ? "" : `Showing ${exercises.length} results.`}
+      </div>
       <div className="exercises-list">
         {currentExercises.map((exercise, i) => (
           <Cards key={i} exercise={exercise} />
-        ))}
+          ))}
       </div>
       <div className="pagination">
         {exercises.length > 9 && (

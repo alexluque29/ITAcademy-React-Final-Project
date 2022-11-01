@@ -4,28 +4,26 @@
   align-items: center;
   justify-content: center;
 }
-
-.ex-name {
-  text-transform: uppercase;
-  color: red;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  font-size: larger;
-  font-weight: bold;
-}
 .ex-text {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .capi {
   text-transform: uppercase;
   font-weight: bold;
-  color: rgb(245, 223, 60);
+  color: red;
 }
 .exerdetail {
+  text-transform: capitalize;
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 30px;
-  font-weight: lighter;
-  color: white;
+  color: rgb(245, 223, 60);
+  font-family: 'Catamaran', sans-serif;  
+}
+.imageDetail{
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(245, 223, 60);
+
 }

@@ -34,6 +34,9 @@ export function Register() {
 
   return (
     <div className="container-register">
+      <div className="please">
+        Please, fill in the form below to create your personal account.
+      </div>
       <div className="w-full max-w-md m-auto text-lg">
         {error && <Alert message={error} />}
 

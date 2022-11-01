@@ -23,7 +23,6 @@ function App() {
             element={<ProtectedRoute><ExerciseDetail /></ProtectedRoute>
             }
           />
-
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>

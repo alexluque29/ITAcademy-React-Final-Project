@@ -33,27 +33,23 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           exercise.target.toLowerCase().includes(search) ||
           exercise.bodyPart.toLowerCase().includes(search)
       );
-
       setSearch("");
       setExercises(searchedExercises);
-      console.log(searchedExercises);
     }
   };
 
   return (
     <>
-      <div className="awesome">
-        Awesome Exercises You Should Know
-      </div>
       <div className="search-row">
+        <div className="youcan">Awesome Exercises You Should Know</div>
         <input
           type="text"
           className="input w-full max-w-xs bg-white"
-          placeholder="Search Exercises"
+          placeholder="Search by Body Part, Muscle or Name"
           value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
         />
-        <button className=" button" onClick={handleSearch}>
+        <button className="button" onClick={handleSearch}>
           Search
         </button>
       </div>

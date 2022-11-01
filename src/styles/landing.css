@@ -49,3 +49,9 @@ body {
   height: 600px;
   position: relative;
 }
+.text{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 55px;
+}
